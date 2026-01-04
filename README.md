@@ -9,22 +9,22 @@ My understanding: In this project i have to make a website in which when a user 
 ### 1 Clone the Repository: 
 git clone https://github.com/RohitSinghDhakad/Webproject.git
 - cd Webproject
-### 2 Backend:
+### 2 Backend:<br>
 **create virtual environment**:
 - python -m venv venv
 - source venv/bin/activate   # On Mac/Linux
 - venv\Scripts\activate      # On Windows
 **install required libraries**: 
-- pip install django djangorestframework pandas scikit-learn nltk vaderSentiment google-generativeai
+- pip install django djangorestframework pandas scikit-learn nltk vaderSentiment google-generativeai<br>
 **Run migrations**: 
-- python backend/manage.py migrate
+- python backend/manage.py migrate<br>
 **Start the Django server**: 
 - python backend/manage.py runserver
 ### 3 Frontend Setup (React + Vite + Tailwind)
 **Navigate to the frontend folder**: 
-- cd frontend
+- cd frontend<br>
 **install dependencies**: 
-- npm install
+- npm install<br>
 **Start the React dev server**: 
 - npm run dev
 
