@@ -11,10 +11,11 @@ lerna-debug.log*
 node_modules/
 dist/
 dist-ssr/
+build/
 *.local
 
 # --- Editor directories and files ---
-.vscode/*
+.vscode/
 !.vscode/extensions.json
 .idea/
 .DS_Store
@@ -33,7 +34,57 @@ __pycache__/
 *.sqlite3
 *.log
 .env
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
 
-# --- Build / Coverage ---
-build/
-coverage/
+# --- Packaging / Distribution ---
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Coverage / Testing ---
+htmlcov/
+.tox/
+.nox/
+.coverage*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- Environments ---
+.envrc
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Misc ---
+pip-log.txt
+pip-delete-this-directory.txt
+docs/_build/
+.ipynb_checkpoints
+.pybuilder/
+target/
